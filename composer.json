@@ -1,0 +1,25 @@
+{
+    "name": "hongliang/alterload",
+    "description": "An alternative loader to autoload",
+    "homepage": "https://github.com/h-wang/alterload",
+    "keywords": ["hongliang", "composer", "packagist", "autoload", "autoloader", "dependency"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hongliang",
+            "email": "code@hongliang.nl",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~3.3",
+        "symfony/process": "~3.3"
+    },
+    "bin": ["bin/alterload"],
+    "autoload": {
+        "psr-4": {
+            "Alterload\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
