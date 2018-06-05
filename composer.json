@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "symfony/console": "~3.3",
-        "symfony/process": "~3.3"
+        "symfony/console": "^3.3 || ^4.0",
+        "symfony/process": "^3.3 || ^4.0"
     },
     "bin": ["bin/alterload"],
     "autoload": {
